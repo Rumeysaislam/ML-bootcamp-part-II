@@ -227,7 +227,7 @@ plt.show()
 
 
 
-# Sayısal Degisken Gorsellestirme;
+# Sayisal Degisken Gorsellestirme;
 
 sns.boxplot(x=df["total_bill"])
 plt.show()
