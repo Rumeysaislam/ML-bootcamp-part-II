@@ -20,7 +20,7 @@ pd.set_option('display.width', 500)                                     # Veriyi
 df = sns.load_dataset("titanic")
 df.head()
 
-# Cinsiyet kategorik degiskeninin grafigini cizmek istiyorum;
+# Cinsiyet kategorik degiskeninin grafigini cizmek istiyoruz;
 # Value_counts(); önemli
 df['sex'].value_counts().plot(kind='bar')                               # Sutun grafik (barplot) olarak; kind='bar'
 plt.show()
